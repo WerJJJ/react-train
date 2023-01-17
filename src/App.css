@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.weather-app__header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4da4fa;
+    color: white;
+}
+
+.weather-app__container {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app__container-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.weather-app__footer {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c8cfc;
+    color: white;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    padding: 30px 30px;
+    border: 2px solid #1c8cfc;
+}
+
+.weather__basic{
+    padding-bottom: 6px;
+}
+
+.weather__picture{
+    font-size: 35px;
+}
+
+.weather__temperature{
+    font-size: 28px;
+}
+
+.weather__description{
+    font-size: 24px;
+}
+
+.weather__humidity-content{
+    padding-top: 8px;
+}
+
+.weather__wind-speed, .weather__humidity{
+    opacity: 0.8;
+}
